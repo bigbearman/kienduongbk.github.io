@@ -46,7 +46,7 @@ var mapCanvas;
 		$('.menu-toggle').on("click", function() {
             $('html').toggleClass('is-menu-toggled-on');
         });
-        $('body').on("click", function() {
+        $('#main').on("click", function() {
             $('html').removeClass('is-menu-toggled-on');
         });
 		// ------------------------------
